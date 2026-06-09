@@ -1,0 +1,20 @@
+h1 
+{color: rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(0, 17, 255); 
+display: inline-block;
+-webkit-text-stroke: 0.4px blue;
+
+animation: deslizar 2s;
+
+}
+
+@keyframes deslizar {
+from{ 
+    transform: translateX(-300px);
+
+}
+
+to {
+    transform: translateX(0);
+}
+ 
